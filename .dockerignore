@@ -1,0 +1,7 @@
+# Version control
+.git
+.gitignore
+
+# Node dependencies (must not be copied into the image;
+# production deps are installed fresh in the deps stage).
+node_app/node_modules
