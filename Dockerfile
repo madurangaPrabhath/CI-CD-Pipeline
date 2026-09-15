@@ -14,4 +14,4 @@ RUN npm install
 EXPOSE 3000
 
 # Start the server. index.js is the app entry point.
-CMD ["node", "index.js"]
+CMD ["npm", "start"]
